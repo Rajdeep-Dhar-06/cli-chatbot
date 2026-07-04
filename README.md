@@ -8,10 +8,10 @@ This chatbot features a dynamic agentic workflow that can decide when to search 
 
 ## Features
 
-*   ** LangGraph Orchestration:** Employs a stateful graph workflow (`StateGraph`) with conditional edges to route between LLM reasoning and tool execution.
-*   ** Tavily Web Search:** Integrated with a custom-wrapped Tavily Search tool that allows the chatbot to search the web for current events and real-time information.
-*   ** Persistent Thread Memory:** Uses `MemorySaver` to persist conversation history across user turns in the CLI session using unique thread IDs.
-*   **🚀 Powered by Bun:** Runs on the ultra-fast Bun JavaScript runtime.
+*   LangGraph Orchestration:** Employs a stateful graph workflow (`StateGraph`) with conditional edges to route between LLM reasoning and tool execution.
+*   Tavily Web Search:** Integrated with a custom-wrapped Tavily Search tool that allows the chatbot to search the web for current events and real-time information.
+*   Persistent Thread Memory:** Uses `MemorySaver` to persist conversation history across user turns in the CLI session using unique thread IDs.
+*   Powered by Bun:** Runs on the ultra-fast Bun JavaScript runtime.
 
 ---
 
