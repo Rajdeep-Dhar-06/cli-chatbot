@@ -1,4 +1,4 @@
-# 🤖 LangGraph CLI Chatbot with Web Search & Memory
+# CLI Chatbot with Web Search & Memory
 
 A lightweight, premium Command-Line Interface (CLI) chatbot powered by **Llama 3.3 (70b-versatile)** on Groq, built using **LangGraph** and **Bun**.
 
@@ -6,14 +6,11 @@ This chatbot features a dynamic agentic workflow that can decide when to search 
 
 ---
 
-## ✨ Features
+## Features
 
-*   **🧠 LangGraph Orchestration:** Employs a stateful graph workflow (`StateGraph`) with conditional edges to route between LLM reasoning and tool execution.
-*   **🔍 Tavily Web Search:** Integrated with a custom-wrapped Tavily Search tool that allows the chatbot to search the web for current events and real-time information.
-*   **💾 Persistent Thread Memory:** Uses `MemorySaver` to persist conversation history across user turns in the CLI session using unique thread IDs.
-*   **⚡ Token Optimized:** 
-    *   Dynamically injects system instructions per invoke to prevent memory duplication and token bloating in the state graph.
-    *   Instructs the agent to output extremely concise, 1-2 sentence answers without pleasantries.
+*   ** LangGraph Orchestration:** Employs a stateful graph workflow (`StateGraph`) with conditional edges to route between LLM reasoning and tool execution.
+*   ** Tavily Web Search:** Integrated with a custom-wrapped Tavily Search tool that allows the chatbot to search the web for current events and real-time information.
+*   ** Persistent Thread Memory:** Uses `MemorySaver` to persist conversation history across user turns in the CLI session using unique thread IDs.
 *   **🚀 Powered by Bun:** Runs on the ultra-fast Bun JavaScript runtime.
 
 ---
